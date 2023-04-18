@@ -1,4 +1,5 @@
 Personal
+Landing page - home(links simple - "about") ---- portfolio/contact
 
 # Getting Started with Create React App
 
