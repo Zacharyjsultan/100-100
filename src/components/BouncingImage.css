@@ -1,0 +1,30 @@
+.bouncing-image {
+  position: absolute;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+  overflow: visible;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(200px, 0);
+  }
+  35% {
+    transform: translate(200px, 200px);
+  }
+  45% {
+    transform: translate(0, 200px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+}
+
+.bouncing-container {
+  background-color: rgb(246, 198, 124);
+}
