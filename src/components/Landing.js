@@ -2,5 +2,9 @@ import React from "react";
 import "./Landing.css";
 
 export default function Landing() {
-  return <div className="background-home">Landing</div>;
+  return (
+    <div className="landing">
+      <div className="landing-box">gdfg</div>
+    </div>
+  );
 }
