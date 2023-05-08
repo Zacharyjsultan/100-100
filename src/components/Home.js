@@ -4,13 +4,15 @@ import "./BouncingImage.css";
 
 export default function Home() {
   return (
-    <div>
-      <a href="/Landing">
-        <button>
-          {/* <img src="/logo1.png" alt="button" /> */}
-          <BouncingImage />
-        </button>
-      </a>
+    <div className="big-kahuna">
+      <div>
+        <a href="/Landing">
+          <button>
+            {/* <img src="/logo1.png" alt="button" /> */}
+            <BouncingImage />
+          </button>
+        </a>
+      </div>
     </div>
   );
 }
