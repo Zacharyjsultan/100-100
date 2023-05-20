@@ -1,9 +1,10 @@
 .bouncing-image {
   position: absolute;
   animation-name: bounce;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
-
+  display: flex;
+  justify-content: center;
   overflow: visible;
 }
 
@@ -26,5 +27,4 @@
 }
 
 .bouncing-container {
-  background-color: rgb(246, 198, 124);
 }
