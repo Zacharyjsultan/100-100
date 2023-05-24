@@ -1,6 +1,10 @@
 Personal
 Landing page - home(links simple - "about") ---- portfolio/contact
 
+ADD A TERNARY OPERATOR
+API
+BACKEND
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
