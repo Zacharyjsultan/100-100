@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         <a href="/Landing">
           <button>
-            {/* <img src="/logo1.png" alt="button" /> */}
+            welcome
             <BouncingImage />
           </button>
         </a>
