@@ -1,16 +1,17 @@
 import React from "react";
 import BouncingImage from "./BouncingImage";
 import "./BouncingImage.css";
+import { Button } from "@mui/material";
 
 export default function Home() {
   return (
     <div className="big-kahuna">
       <div>
         <a href="/Landing">
-          <button>
+          <Button variant="contained">
             welcome
             <BouncingImage />
-          </button>
+          </Button>
         </a>
       </div>
     </div>
